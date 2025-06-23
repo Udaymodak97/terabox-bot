@@ -10,7 +10,7 @@ API_URL = "https://ashlynn.serv00.net/Ashlynnterabox.php?url="
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.reply_to(message, "👋 Welcome!\nSend me any Terabox video link and I will give you the direct download link.")
+    bot.reply_to(message, "👋 Welcome!\nSend me any Terabox video link and I will give you the direct download video.")
 
 @bot.message_handler(func=lambda m: True)
 def handle_link(message):
