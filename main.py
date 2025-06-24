@@ -3,7 +3,7 @@ import telebot
 import requests
 
 # Replace this with your actual bot token from @BotFather
-BOT_TOKEN = 'os.getenv("BOT_TOKEN")'
+BOT_TOKEN = 'os.getenv("BOT_TOKEN )'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 API_URL = "https://terabox-api.vercel.app/api?link="
