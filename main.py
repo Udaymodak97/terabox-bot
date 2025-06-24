@@ -6,7 +6,7 @@ import requests
 BOT_TOKEN = 'os.getenv("BOT_TOKEN")'
 bot = telebot.TeleBot(BOT_TOKEN)
 
-API_URL = "https://ashlynn.serv00.net/Ashlynnterabox.php?url="
+API_URL = "https://terabox-api.vercel.app/api?link="
 
 @bot.message_handler(commands=['start'])
 def start(message):
