@@ -5,7 +5,7 @@ import requests
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
-API_URL = "https://tera-api-thory.vercel.app/api?api_key=7daysfreeapi&url="
+API_URL = "https://vercel.com/udaymodak97s-projects/terabox-api-avol/GBWusiNZtmpj9N7Y4dQC95WmTbY2"
 "
 
 @bot.message_handler(commands=['start'])
